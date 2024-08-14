@@ -241,11 +241,6 @@ export default {
                 label: "蛋仔自用",
                 value:
                   "https://cdn.jsdelivr.net/gh/Mrxia/clash_ruls@master/xiaodandan.ini"
-              },
-              {
-                label: "自定义模板地址",
-                value:
-                  ""
               }
             ]
           },
