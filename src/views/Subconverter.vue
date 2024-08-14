@@ -1,5 +1,5 @@
 <template>
-  <div style="background-image: url('https://cdn.jsdelivr.net/gh/Mrxia/Image-hosting/images/IMG_7564.JPEG'); background-size: cover; height: 100vh;">
+  <div>
     <el-row style="margin-top: 10px">
       <el-col>
         <el-card>
@@ -190,9 +190,16 @@
         <el-button type="primary" @click="confirmLoadConfig" :disabled="loadConfig.length === 0">确 定</el-button>
       </div>
     </el-dialog>
-
   </div>
 </template>
+
+<style>
+  body {background-image:url(https://tuapi.eees.cc/api.php?category=dongman&type=302) ;//图片类型更换请修改参数  
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-position:50% 50%;
+  }
+</style>
 
 <script>
 const project = process.env.VUE_APP_PROJECT
@@ -391,8 +398,8 @@ export default {
         clientType: "",
         customBackend: "https://sub.dzkeji.xyz/sub?",
         remoteConfig: "",
-        excludeRemarks: "",
         includeRemarks: "",
+        excludeRemarks: "^(?!.*(?:新用户|流量|过期|时间)).*$",
         filename: "",
         emoji: true,
         nodeList: false,
