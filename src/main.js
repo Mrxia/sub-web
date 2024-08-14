@@ -10,6 +10,7 @@ require(`@/plugins/device`)
 
 import '@/icons' // icon
 import './registerServiceWorker'
+import './styles.css'
 
 Vue.config.productionTip = false
 
