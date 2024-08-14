@@ -191,15 +191,16 @@
       </div>
     </el-dialog>
   </div>
+  <style>
+    body {
+      background-image: url(https://tuapi.eees.cc/api.php?category=dongman&type=302);
+      background-repeat: repeat;
+      background-attachment: fixed;
+      background-position: 50% 50%;
+    }
+  </style>
 </template>
 
-<style>
-  body {background-image:url(https://tuapi.eees.cc/api.php?category=dongman&type=302)
-  background-repeat:repeat;
-  background-attachment:fixed;
-  background-position:50% 50%;
-  }
-</style>
 
 <script>
 const project = process.env.VUE_APP_PROJECT
