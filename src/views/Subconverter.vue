@@ -194,7 +194,7 @@
 </template>
 
 <style>
-  body {background-image:url(https://tuapi.eees.cc/api.php?category=dongman&type=302) ;//图片类型更换请修改参数  
+  body {background-image:url(https://tuapi.eees.cc/api.php?category=dongman&type=302)
   background-repeat:repeat;
   background-attachment:fixed;
   background-position:50% 50%;
