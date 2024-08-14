@@ -239,13 +239,13 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" },{ value: "https://sub.dzkeji.xyz/sub?" }],
+        backendOptions: [{ value: "http://127.0.0.1:25500/sub?",value: "https://sub.dzkeji.xyz/sub?"}],
         remoteConfig: [
           {
-            label: "自用",
+            label: "定制",
             options: [
               {
-                label: "蛋仔自用",
+                label: "xiaodandan自用",
                 value:
                   "https://cdn.jsdelivr.net/gh/Mrxia/clash_ruls@master/xiaodandan.ini"
               }
