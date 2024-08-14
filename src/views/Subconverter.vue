@@ -191,16 +191,7 @@
       </div>
     </el-dialog>
   </div>
-  <style>
-    body {
-      background-image: url(https://tuapi.eees.cc/api.php?category=dongman&type=302);
-      background-repeat: repeat;
-      background-attachment: fixed;
-      background-position: 50% 50%;
-    }
-  </style>
 </template>
-
 
 <script>
 const project = process.env.VUE_APP_PROJECT
@@ -240,7 +231,7 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?",value: "https://sub.dzkeji.xyz/sub?"}],
+        backendOptions: [{ value: "https://sub.dzkeji.xyz/sub?" },{ value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
           {
             label: "定制",
