@@ -33,8 +33,8 @@ docker run -d -p 58080:80 --restart always --name subweb careywong/subweb:latest
 docker -v
 Docker version 23.0.4, build f480fb1
 
-docker build -t subweb-local:latest .
-docker run -d -p 58080:80 --restart always --name subweb subweb-local:latest
+sudo docker buildx build --platform linux/amd64,linux/arm64 -f ./Dockerfile --output "type=docker,name=sub-web:latest" .
+docker run -d -p 58080:80 --restart always --name subweb subweb-web:latest
 ```
 
 ## Requirements
