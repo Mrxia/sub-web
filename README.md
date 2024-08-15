@@ -37,7 +37,7 @@ Docker version 23.0.4, build f480fb1
 sudo docker buildx build --platform linux/amd64 -f ./Dockerfile --output "type=docker,name=sub-web:latest" .
 
 #推送至docker hub
-sudo docker buildx build --platform linux/amd64,linux/arm64 -f ./Dockerfile --output "type=image,name=xiao6666/subweb:latest,push=true" .
+sudo docker buildx build --platform linux/amd64,linux/arm64 -f ./Dockerfile --output "type=image,name={你的名称}/{仓库名称}:latest,push=true" .
 
 docker run -d -p 58080:80 --restart always --name subweb subweb-web:latest
 ```
