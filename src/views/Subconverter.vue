@@ -155,7 +155,7 @@
     </el-row>
 
     <el-dialog :visible.sync="dialogUploadConfigVisible" :show-close="false" :close-on-click-modal="false"
-      :close-on-press-escape="false" width="700px" class="glass-dialog">
+      :close-on-press-escape="false" width="700px">
       <div slot="title">
         Remote config upload
         <el-popover trigger="hover" placement="right" style="margin-left: 10px">
@@ -176,7 +176,7 @@
     </el-dialog>
 
     <el-dialog :visible.sync="dialogLoadConfigVisible" :show-close="false" :close-on-click-modal="false"
-      :close-on-press-escape="false" width="700px" class="glass-dialog">
+      :close-on-press-escape="false" width="700px">
       <div slot="title">
         解析 Subconverter 链接
       </div>
@@ -210,12 +210,6 @@
   border: 1px solid rgba(255, 255, 255, 0.3); /* 边框 */
 }
 
-.glass-dialog {
-  background: rgba(255, 255, 255, 0.4); /* 稍微增加背景的透明度 */
-  backdrop-filter: blur(8px); /* 稍微减少毛玻璃效果的模糊度 */
-  border-radius: 12px; /* 圆角边框 */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* 边框 */
-}
 
 /* 增加字体的对比度 */
 .glass-container, .glass-card, .glass-dialog, .el-input__inner, .el-textarea__inner, .el-button, .el-radio__label, .el-checkbox__label, .el-select-dropdown__item {
