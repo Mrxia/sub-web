@@ -56,7 +56,7 @@ VUE_APP_MYURLS_API = "https://你的域名/short"
 
 ## 展示图
 
-![image-20240815111446054](https://cdn.jsdelivr.net/gh/Mrxia/Image-hosting/images/image-20240815111446054.png)
+![image-20240815111446054](https://cdn.jsdelivr.net/gh/Mrxia/Image-hosting/images/202408162319896.png)
 
 
 ## Related
