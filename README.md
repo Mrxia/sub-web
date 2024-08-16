@@ -44,7 +44,7 @@ docker run -d -p 58080:80 --restart always --name subweb subweb-web:latest
 
 # 搭配
 
-具体教程请参考[我的博客](https://www.dzkeji.site/archives/1723692062553)
+具体教程请参考[我的博客](https://www.dzkeji.site/archives/41b78900-b048-4df6-9c9b-359784277a98)
 
 使用MyUrls短链时,需改写.env文件
 ```
