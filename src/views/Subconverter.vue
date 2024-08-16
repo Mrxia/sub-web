@@ -1062,7 +1062,7 @@ export default {
         customBackend: "https://sub.dzkeji.xyz/sub?",
         remoteConfig: "",
         includeRemarks: "",
-        excludeRemarks: "^(?!.*(?:新用户|流量|过期|时间)).*$",
+        excludeRemarks: "新用户|流量|过期|时间|剩余|到期",
         filename: "",
         emoji: true,
         nodeList: false,
