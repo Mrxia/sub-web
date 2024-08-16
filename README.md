@@ -44,14 +44,14 @@ docker run -d -p 58080:80 --restart always --name subweb subweb-web:latest
 
 # 搭配
 
+具体教程请参考[我的博客](https://www.dzkeji.site/archives/1723692062553)
+
 使用MyUrls短链时,需改写.env文件
 ```
 # 短链接后端
 VUE_APP_MYURLS_API = "https://你的域名/short"
 ```
 请务必在域名结尾加上`/short`,否则将无法使用短链功能
-
-具体操作请移至[我的博客](https://www.dzkeji.site/archives/1723692062553)
 
 
 ## 展示图
@@ -63,7 +63,7 @@ VUE_APP_MYURLS_API = "https://你的域名/short"
 
 - [tindy2013/subconverter](https://github.com/tindy2013/subconverter)
 - [CareyWang/MyUrls](https://github.com/CareyWang/MyUrls)
-
+- [Mrxia/MyUrls](https://github.com/Mrxia/MyUrls)
 
 ## Contributing
 
