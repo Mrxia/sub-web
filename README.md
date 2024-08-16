@@ -42,7 +42,14 @@ sudo docker buildx build --platform linux/amd64,linux/arm64 -f ./Dockerfile --ou
 docker run -d -p 58080:80 --restart always --name subweb subweb-web:latest
 ```
 
+# 搭配
 
+使用MyUrls短链时,需改写.env文件
+```
+# 短链接后端
+VUE_APP_MYURLS_API = "https://你的域名/short"
+```
+请务必在域名结尾加上`/short`,否则将无法使用短链功能
 
 具体操作请移至[我的博客](https://www.dzkeji.site/archives/1723692062553)
 
@@ -54,6 +61,7 @@ docker run -d -p 58080:80 --restart always --name subweb subweb-web:latest
 
 - [tindy2013/subconverter](https://github.com/tindy2013/subconverter)
 - [CareyWang/MyUrls](https://github.com/CareyWang/MyUrls)
+
 
 ## Contributing
 
